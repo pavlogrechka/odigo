@@ -1,0 +1,16 @@
+@import url('normalize.css');
+@import url('base.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap');
+@import url('header.css');
+@import url('promo.css');
+@import url('benefits.css');
+@import url('get-inspired.css');
+@import url('places.css');
+@import url('top-places.css');
+@import url('footer.css');
+
+.banner {
+  background: url(../assets/img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

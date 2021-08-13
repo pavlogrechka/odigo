@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  padding-top: 56px;
+}
+
+.logo {
+  max-width: 82px;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav__item {
+  margin-right: 82px;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.nav__link {
+  color: var(--main-color);
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}

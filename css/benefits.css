@@ -1,0 +1,33 @@
+.benefits {
+  background-color: var(--main-color);
+  margin-top: -206px;
+  margin-bottom: 38px;
+  padding-bottom: 129px;
+  box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993)
+}
+
+.benefits .section__title {
+  margin-bottom: 120px;
+}
+
+.benefits-items {
+  display: flex;
+}
+
+.benefits-item:not(:last-child) {
+  margin-right: 64px;
+}
+
+.benefits-item {}
+
+.benefits-item__img {
+  margin: 0 0 37px 0;
+}
+
+.benefits-item__title {
+  margin: 0 0 26px 0;
+}
+
+.benefits-item__text {
+  margin: 0 0 39px 0;
+}

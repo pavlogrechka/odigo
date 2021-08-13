@@ -1,0 +1,44 @@
+.places {}
+
+.places-item {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-bottom: 77px;
+}
+
+.places-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 47px;
+  padding-right: 47px;
+}
+
+.section__title--sm {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin: 0;
+}
+
+.places__text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.places-img-wrapper {
+  width: 100%;
+}
+
+.places-img-wrapper:first-child {
+  margin-right: 61px;
+}
+
+.places-img-wrapper:last-child {
+  margin-left: 61px;
+}
+
+.places__img {
+  width: 100%;
+}
